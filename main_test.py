@@ -7,7 +7,7 @@ def celsius_to_kelvin(temperature):
 
 
 if __name__ == '__main__':
-    with open("input.txt", "r") as file, open("result.txt", "w") as result:
+    with open("input", "r") as file, open("result.txt", "w") as result:
         lines = file.readlines()
         temperatures = []
         for line in lines:
