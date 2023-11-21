@@ -13,7 +13,7 @@ if __name__ == '__main__':
         for line in lines:
             temperature = float(line.strip())
             temperatures.append(temperature)
-        result.write("Celsius; Kelvin")
+        result.write("Celsius; Kelvin \n")
 
         for temperature in temperatures:
-            result.write(f"{temperature}; {celsius_to_kelvin(temperature)} \n")
+            result.write(f"{temperature};     {celsius_to_kelvin(temperature)} \n")
